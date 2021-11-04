@@ -128,7 +128,7 @@ func main() {
 		sum += f1
 	}
 
-	fmt.Println("you fat fuck spent for glovo", sum, "KZT. Go to fitness damn bloody lazy prick")
+	fmt.Println("you spent for glovo", sum, "KZT. Go to fitness!")
 }
 
 func orderDataStringToFloat64(s string) (float64, error) {
