@@ -139,7 +139,7 @@ func orderDataStringToFloat64(s string) (float64, error) {
 
 	s = strings.Trim(s, " ")
 
-	s = strings.Replace(s, ",", ".", -1)
+	s = strings.Replace(s, ",", "", -1)
 	s = strings.Replace(s, string(rune(160)), "", -1)
 	s = strings.Replace(s, string(rune(65533)), "", -1)
 
